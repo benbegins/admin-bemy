@@ -29,3 +29,10 @@ function custom_login() {
 }
 
 add_action( 'login_enqueue_scripts', 'custom_login' );
+
+
+// Desactivate gutenberg
+add_filter('use_block_editor_for_post', '__return_false', 10);
+
+// Desactivate gutenberg for custom post type
+add_filter('use_block_editor_for_post_type', '__return_false', 10);
