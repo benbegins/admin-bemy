@@ -256,6 +256,24 @@
             "endpoint": 0
         },
         {
+            "key": "field_657332680a0f7",
+            "label": "Couleur de fond",
+            "name": "background_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Couleur de fond pour les visuels avec padding.\r\nGris foncé par défaut",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
             "key": "field_644d010fc7778",
             "label": "Visuels",
             "name": "visuels",
@@ -546,5 +564,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 1,
-    "modified": 1702045738
+    "modified": 1702048456
 }
