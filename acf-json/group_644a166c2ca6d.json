@@ -483,6 +483,49 @@
             "min": "",
             "max": "",
             "button_label": "Ajouter un élément"
+        },
+        {
+            "key": "field_657327984be40",
+            "label": "Témoignage",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_657327a44be41",
+            "label": "Témoignage",
+            "name": "quote",
+            "aria-label": "",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "quote"
+            ],
+            "post_status": "",
+            "taxonomy": "",
+            "return_format": "id",
+            "multiple": 0,
+            "allow_null": 0,
+            "bidirectional": 0,
+            "ui": 1,
+            "bidirectional_target": []
         }
     ],
     "location": [
@@ -503,5 +546,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 1,
-    "modified": 1701853235
+    "modified": 1702045738
 }
